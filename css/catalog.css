@@ -31,14 +31,9 @@
 .active{
     background-color: #27AE60;
 }
-.side-menu{
-    max-width: 360px;
-    border: 1px solid #E0E0DD;
-}
 .dots_slider{
     margin-bottom: 187px;
 }
 .products{
     border-bottom: 1px solid #E0E0DD;
-    display: flex;
 }
