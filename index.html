@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная</title>
-    <link type="image/x-icon" rel="icon" href="public/favicon.ico">
+    <title>Crystal Trees</title>
+    <link type="image/x-icon" rel="icon" href="/public/favicon.ico">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body class = "body">
@@ -18,34 +18,120 @@
                     <a class = "link" href="//google.com">Контакты</a>
                 </div>
                 <div class="info">
-                    <span class="email-text">world@crystaltrees.ru</span>
-                    <span class="email-text phone">8 (800) 55 55 57 24</span>
+                    <a class="email-text" href="mailto:world@crystaltrees.ru">world@crystaltrees.ru</a>
+                    <a class="email-text phone" href="tel:+780055555724">8 (800) 55 55 57 24</a>
                 </div>
             </div> 
         <div class="sticky-menu">
-            <div class="burger">
-                <img class="burger_icon" src="/img/list.svg">
-            </div>
-            <div class="logo_wrap">
-                <img class="logo" src="/img/logo.svg" alt="">               
-            </div>
-            <!-- Не работает нормально submenu -->
-            <div class="sticky-menu-nav">
-                <div class="nav_items">
-                    <ul class="nav_items_list">
-                        <li class="nav_item_head"><a class="title" href="#">Комнатные ели<span class="arrowdown"></span></a>
-                            <ul class="submenu">
-                                <li class="nav_item_content">Литые</li>
-                                <li class="nav_item_content">Комбинированные</li>
-                                <li class="nav_item_content">Елки из ПВХ</li>
-                                <li class="nav_item_content">Заснеженные, с освещением</li>
-                                <li class="nav_item_content">Дизайнерские</li>
+            <div class="sticky-menu_left">
+                <div class="burger">
+                    <input id="burger_toggle" type="checkbox">
+                    <label class="burger_icon" for="burger_toggle">
+                        <span class="burger_icon__span"></span>
+                    </label>
+                    <div class="menu_box">
+                        <div class="menu_box_top">
+                            <ul>
+                                <div class="burger_products">
+                                    <div class="burger_product">
+                                        <img class="burger_product_icon" src="/img/snowflake.svg">
+                                    <li class="burger_products_header burger_header_gap">Комнатные ели
+                                        <ul class="burger_products_types">
+                                            <li><a class="burger_products_content" href="#">Литые</a></li>
+                                            <li><a class="burger_products_content" href="#">Комбинированные</a></li>
+                                            <li><a class="burger_products_content" href="#">Елки из ПВХ</a></li>
+                                            <li><a class="burger_products_content" href="#">Заснеженные, с освещением</a></li>
+                                            <li><a class="burger_products_content" href="#">Дизайнерские</a></li> 
+                                        </ul>
+                                    </li>
+                                    </div>
+                                    <div class="burger_product">
+                                        <img class="burger_product_icon" src="/img/spruce.svg">
+                                        <li class="burger_products_header burger_header_gap">Высотные ели
+                                            <ul class="burger_products_types">
+                                                <li><a class="burger_products_content" href="#">Уличные ели</a></li>
+                                                <li><a class="burger_products_content" href="#">Интерьерные ели</a></li>
+                                            </ul>
+                                        </li>
+                                    </div>
+                                    <div class="burger_product">
+                                        <img class="burger_product_icon" src="/img/star.svg">
+                                        <li class="burger_products_header burger_header_gap">Новогодний декор
+                                            <ul class="burger_products_types">
+                                                <li><a class="burger_products_content" href="#">Хвойные венки</a></li>
+                                                <li><a class="burger_products_content" href="#">Хвойные гирлянды</a></li>
+                                                <li><a class="burger_products_content" href="#">Хвойные сваги</a></li>
+                                                <li><a class="burger_products_content" href="#">Елочные украшения</a></li>
+                                            </ul>
+                                        </li>
+                                    </div>
+                                    <div class="burger_product">
+                                        <img class="burger_product_icon" src="/img/lightbulb.svg">
+                                        <li class="burger_products_header">Гирлянды
+                                            <ul class="burger_products_types">
+                                                <li><a class="burger_products_content" href="#">Электрогирлянды</a></li>
+                                                <li><a class="burger_products_content" href="#">На батарейках</a></li>
+                                                <li><a class="burger_products_content" href="#">Занавесы, сетки</a></li>
+                                            </ul>
+                                        </li>
+                                    </div>
+                                </div>
                             </ul>
-                        </li>
-                        <li class="nav_item_head"><a class="title" href="#">Высотные ели<span class="arrowdown"></span></a></li>
-                        <li class="nav_item_head"><a class="title" href="#">Новогодний декор<span class="arrowdown"></span></a></li>
-                        <li class="nav_item_head"><a class="title" href="#">Гирлянды<span class="arrowdown"></span></a></li>
-                    </ul>
+                            <div class="burger_social_wrap">
+                                <div class="burger_social">
+                                    <a class="circle_button button_gap" target="_blank" href="//facebook.com"><span class="icon-facebook"></span></a>
+                                    <a class="circle_button button_gap" target="_blank" href="//instagram.com"><span class="icon-insta"></span></a>
+                                    <a class="circle_button" target="_blank" href="//youtube.com"><span class="icon-youtube"></span></a>
+                                </div>
+                                <span class="crystal_trees">© 2021 CRYSTAL TREES,<br> Все права защищены</span>
+                            </div>
+                        </div>
+                        <div class="burger_banner">
+                            <div class="burger_banner_bg">
+                                <img src="/img/burgermenubanner.svg">
+                                <div class="burger_banner_person">
+                                    <img src="/img/burgerbannerperson.png">
+                                </div>
+                            </div>
+                            <div class="burger_banner_text">
+                                <div class="col">
+                                    <p class="burger_banner__p">
+                                        Стань партнером, заработай от
+                                        <br>
+                                        <span class="burger_banner__span">700 000 рублей за 3 месяца!</span>
+                                    </p>
+                                    <a href="#" class="burger_banner_button">Подробнее</a>
+                                </div>
+                                <div class="col">
+                                    <ul>
+                                        <li class="adv adv_top_gap">Мы работаем более 20 лет на рынке искусственных елей</li>
+                                        <li class="adv">Собственные склады и шоурум в Москве</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo_wrap">
+                    <img class="logo" src="/img/logo.svg" alt="">               
+                </div>
+                <div class="sticky-menu-nav">
+                    <div class="nav_items">
+                        <ul class="nav_items_list">
+                            <li class="nav_item_head"><a class="title" href="#">Комнатные ели<span class="arrowdown"></span></a>
+                                <ul class="submenu">
+                                    <li class="nav_item_content">Литые</li>
+                                    <li class="nav_item_content">Комбинированные</li>
+                                    <li class="nav_item_content">Елки из ПВХ</li>
+                                    <li class="nav_item_content">Заснеженные, с освещением</li>
+                                    <li class="nav_item_content">Дизайнерские</li>
+                                </ul>
+                            </li>
+                            <li class="nav_item_head"><a class="title" href="#">Высотные ели<span class="arrowdown"></span></a></li>
+                            <li class="nav_item_head"><a class="title" href="#">Новогодний декор<span class="arrowdown"></span></a></li>
+                            <li class="nav_item_head"><a class="title" href="#">Гирлянды<span class="arrowdown"></span></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="sticky-menu-func">
@@ -115,7 +201,7 @@
             <div class="top">
                 <span class="section_title">Лучшие предложения</span>
                 <div class="buttons top">
-                    <button class="best_offer__button">Хиты</button>
+                    <button class="best_offer__button selected">Хиты</button>
                     <button class="best_offer__button">Новинки</button>
                 </div>
                 <div class="arrows top">
@@ -129,6 +215,9 @@
                         <div class="item_icons">
                             <div class="item_icons_badge">
                                 <img src="/img/hit.svg">
+                                <span class="item_icons_badge_desc">
+                                    <p class="item_icons_badge_desc__p">Хит</p>
+                                </span>
                                 <img src="/img/gift.svg">
                             </div>
                             <img class="showcasescale" src="/img/scalesshowcase.svg">
@@ -137,18 +226,20 @@
                             <div class="item_image gap-between">
                                 <img src="/img/sprucegarda.png">
                             </div>
-                            <div class="item_name gap-between">
-                                <span>Искусственная Ель Нарда заснеженная</span>
-                            </div>
-                            <div class="item_article gap-between">
-                                <span>артикул: KP3018</span>
-                            </div>
-                            <div class="item_rating">
-                                <img class="rating" src="/img/rating.svg">
-                                <a href="#"><img src="/img/review.svg"></a>
-                            </div>
                         </div>
                         <div class="product_item_bottom">
+                            <div class="product_item_desc">
+                                <div class="item_name gap-between">
+                                    <span>Искусственная Ель Гарда заснеженная</span>
+                                </div>
+                                <div class="item_article gap-between">
+                                    <span>артикул: KP3018</span>
+                                </div>
+                                <div class="item_rating">
+                                    <img class="rating" src="/img/rating.svg">
+                                    <a href="#"><img src="/img/review.svg"></a>
+                                </div>
+                            </div>
                             <div class="product_item_height">
                                 <a href="#"><img src="/img/size.svg"></a>
                                 <span class="avilability">в наличии</span>
@@ -159,7 +250,7 @@
                                     <div class="product_item_sale_price"></div>
                                 </div>
                                 <div class="product_item_buy">
-                                    <a><img src="/img/shoppingcartgreen.svg"></a>
+                                    <a class="product_item_buy_icon"></a>
                                 </div>
                             </div>
                         </div>
@@ -167,38 +258,39 @@
                     <div class="product_item">
                         <div class="item_icons">
                             <div class="item_icons_badge">
-                                <img src="/img/hit.svg">
-                                <img src="/img/gift.svg">
+                                <img src="/img/new.svg">
                             </div>
                             <img class="showcasescale" src="/img/scalesshowcase.svg">
                         </div>
                         <div class="product_item_top">
                             <div class="item_image gap-between">
-                                <img src="/img/sprucegarda.png">
-                            </div>
-                            <div class="item_name gap-between">
-                                <span>Искусственная Ель Нарда заснеженная</span>
-                            </div>
-                            <div class="item_article gap-between">
-                                <span>артикул: KP3018</span>
-                            </div>
-                            <div class="item_rating">
-                                <img class="rating" src="/img/rating.svg">
-                                <a href="#"><img src="/img/review.svg"></a>
+                                <img src="/img/shotlandija1.png">
                             </div>
                         </div>
                         <div class="product_item_bottom">
+                            <div class="product_item_desc">
+                                <div class="item_name gap-between">
+                                    <span>Искусственная Ель Шотландия</span>
+                                </div>
+                                <div class="item_article gap-between">
+                                    <span>артикул: KP3018</span>
+                                </div>
+                                <div class="item_rating">
+                                    <img class="rating" src="/img/rating.svg">
+                                    <a href="#"><img src="/img/review.svg"></a>
+                                </div>
+                            </div>
                             <div class="product_item_height">
                                 <a href="#"><img src="/img/size.svg"></a>
                                 <span class="avilability">в наличии</span>
                             </div>
                             <div class="product_item_price">
                                 <div class="product_item_price_wrap">
-                                    <span class="showcase_price">43 990 ₽</span>
+                                    <span class="showcase_price">28 990 ₽</span>
                                     <div class="product_item_sale_price"></div>
                                 </div>
                                 <div class="product_item_buy">
-                                    <a><img src="/img/shoppingcartgreen.svg"></a>
+                                    <a class="product_item_buy_icon"></a>
                                 </div>
                             </div>
                         </div>
@@ -206,38 +298,39 @@
                     <div class="product_item">
                         <div class="item_icons">
                             <div class="item_icons_badge">
-                                <img src="/img/hit.svg">
-                                <img src="/img/gift.svg">
+                                <img src="/img/new.svg">
                             </div>
                             <img class="showcasescale" src="/img/scalesshowcase.svg">
                         </div>
                         <div class="product_item_top">
                             <div class="item_image gap-between">
-                                <img src="/img/sprucegarda.png">
-                            </div>
-                            <div class="item_name gap-between">
-                                <span>Искусственная Ель Нарда заснеженная</span>
-                            </div>
-                            <div class="item_article gap-between">
-                                <span>артикул: KP3018</span>
-                            </div>
-                            <div class="item_rating">
-                                <img class="rating" src="/img/rating.svg">
-                                <a href="#"><img src="/img/review.svg"></a>
+                                <img src="/img/empress.png">
                             </div>
                         </div>
                         <div class="product_item_bottom">
+                            <div class="product_item_desc">
+                                <div class="item_name gap-between">
+                                    <span>Венок Триумф Императрица с шишками заснеженный</span>
+                                </div>
+                                <div class="item_article gap-between">
+                                    <span>артикул: 73847</span>
+                                </div>
+                                <div class="item_rating">
+                                    <img class="rating" src="/img/rating.svg">
+                                    <a href="#"><img src="/img/review.svg"></a>
+                                </div>
+                            </div>
                             <div class="product_item_height">
-                                <a href="#"><img src="/img/size.svg"></a>
+                                <a href="#"><img src="/img/45cm.svg"></a>
                                 <span class="avilability">в наличии</span>
                             </div>
                             <div class="product_item_price">
                                 <div class="product_item_price_wrap">
-                                    <span class="showcase_price">43 990 ₽</span>
+                                    <span class="showcase_price">5 990 ₽</span>
                                     <div class="product_item_sale_price"></div>
                                 </div>
                                 <div class="product_item_buy">
-                                    <a><img src="/img/shoppingcartgreen.svg"></a>
+                                    <a class="product_item_buy_icon"></a>
                                 </div>
                             </div>
                         </div>
@@ -245,38 +338,40 @@
                     <div class="product_item">
                         <div class="item_icons">
                             <div class="item_icons_badge">
-                                <img src="/img/hit.svg">
-                                <img src="/img/gift.svg">
+                                <img src="/img/sale.svg">
+                                <img src="/img/new.svg">
                             </div>
                             <img class="showcasescale" src="/img/scalesshowcase.svg">
                         </div>
                         <div class="product_item_top">
                             <div class="item_image gap-between">
-                                <img src="/img/sprucegarda.png">
-                            </div>
-                            <div class="item_name gap-between">
-                                <span>Искусственная Ель Нарда заснеженная</span>
-                            </div>
-                            <div class="item_article gap-between">
-                                <span>артикул: KP3018</span>
-                            </div>
-                            <div class="item_rating">
-                                <img class="rating" src="/img/rating.svg">
-                                <a href="#"><img src="/img/review.svg"></a>
+                                <img src="/img/forestbeauty.png">
                             </div>
                         </div>
                         <div class="product_item_bottom">
+                            <div class="product_item_desc">
+                                <div class="item_name gap-between">
+                                    <span>Сваг с лампочками Триумф Лесная Красавица</span>
+                                </div>
+                                <div class="item_article gap-between">
+                                    <span>артикул: KP3018</span>
+                                </div>
+                                <div class="item_rating">
+                                    <img class="rating" src="/img/rating.svg">
+                                    <a href="#"><img src="/img/review.svg"></a>
+                                </div>
+                            </div>
                             <div class="product_item_height">
-                                <a href="#"><img src="/img/size.svg"></a>
+                                <a href="#"><img src="/img/sizegreen.svg"></a>
                                 <span class="avilability">в наличии</span>
                             </div>
                             <div class="product_item_price">
                                 <div class="product_item_price_wrap">
-                                    <span class="showcase_price">43 990 ₽</span>
+                                    <span class="showcase_price">8 990 ₽</span>
                                     <div class="product_item_sale_price"></div>
                                 </div>
                                 <div class="product_item_buy">
-                                    <a><img src="/img/shoppingcartgreen.svg"></a>
+                                    <a class="product_item_buy_icon"></a>
                                 </div>
                             </div>
                         </div>
@@ -284,38 +379,39 @@
                     <div class="product_item">
                         <div class="item_icons">
                             <div class="item_icons_badge">
-                                <img src="/img/hit.svg">
                                 <img src="/img/gift.svg">
                             </div>
                             <img class="showcasescale" src="/img/scalesshowcase.svg">
                         </div>
                         <div class="product_item_top">
                             <div class="item_image gap-between">
-                                <img src="/img/sprucegarda.png">
-                            </div>
-                            <div class="item_name gap-between">
-                                <span>Искусственная Ель Нарда заснеженная</span>
-                            </div>
-                            <div class="item_article gap-between">
-                                <span>артикул: KP3018</span>
-                            </div>
-                            <div class="item_rating">
-                                <img class="rating" src="/img/rating.svg">
-                                <a href="#"><img src="/img/review.svg"></a>
+                                <img src="/img/Normandia.png">
                             </div>
                         </div>
                         <div class="product_item_bottom">
+                            <div class="product_item_desc">
+                                <div class="item_name gap-between">
+                                    <span>Венок Триумф Нормандия 60см</span>
+                                </div>
+                                <div class="item_article gap-between">
+                                    <span>артикул: 73847</span>
+                                </div>
+                                <div class="item_rating">
+                                    <img class="rating" src="/img/rating.svg">
+                                    <a href="#"><img src="/img/review.svg"></a>
+                                </div>
+                            </div>
                             <div class="product_item_height">
-                                <a href="#"><img src="/img/size.svg"></a>
+                                <a href="#"><img src="/img/60cm.svg"></a>
                                 <span class="avilability">в наличии</span>
                             </div>
                             <div class="product_item_price">
                                 <div class="product_item_price_wrap">
-                                    <span class="showcase_price">43 990 ₽</span>
+                                    <span class="showcase_price">10 390 ₽</span>
                                     <div class="product_item_sale_price"></div>
                                 </div>
                                 <div class="product_item_buy">
-                                    <a><img src="/img/shoppingcartgreen.svg"></a>
+                                    <a class="product_item_buy_icon"></a>
                                 </div>
                             </div>
                         </div>
@@ -334,6 +430,9 @@
                             <div class="item_icons">
                                 <div class="item_icons_badge">
                                     <img src="/img/hit.svg">
+                                    <span class="item_icons_badge_desc">
+                                        <p class="item_icons_badge_desc__p">Хит</p>
+                                    </span>
                                     <img src="/img/gift.svg">
                                 </div>
                                 <img class="showcasescale" src="/img/scalesshowcase.svg">
@@ -342,18 +441,20 @@
                                 <div class="item_image gap-between">
                                     <img src="/img/sprucegarda.png">
                                 </div>
-                                <div class="item_name gap-between">
-                                    <span>Искусственная Ель Нарда заснеженная</span>
-                                </div>
-                                <div class="item_article gap-between">
-                                    <span>артикул: KP3018</span>
-                                </div>
-                                <div class="item_rating">
-                                    <img class="rating" src="/img/rating.svg">
-                                    <a href="#"><img src="/img/review.svg"></a>
-                                </div>
                             </div>
                             <div class="product_item_bottom">
+                                <div class="product_item_desc">
+                                    <div class="item_name gap-between">
+                                        <span>Искусственная Ель Гарда заснеженная</span>
+                                    </div>
+                                    <div class="item_article gap-between">
+                                        <span>артикул: KP3018</span>
+                                    </div>
+                                    <div class="item_rating">
+                                        <img class="rating" src="/img/rating.svg">
+                                        <a href="#"><img src="/img/review.svg"></a>
+                                    </div>
+                                </div>
                                 <div class="product_item_height">
                                     <a href="#"><img src="/img/size.svg"></a>
                                     <span class="avilability">в наличии</span>
@@ -364,7 +465,7 @@
                                         <div class="product_item_sale_price"></div>
                                     </div>
                                     <div class="product_item_buy">
-                                        <a><img src="/img/shoppingcartgreen.svg"></a>
+                                        <a class="product_item_buy_icon"></a>
                                     </div>
                                 </div>
                             </div>
@@ -372,38 +473,39 @@
                         <div class="product_item">
                             <div class="item_icons">
                                 <div class="item_icons_badge">
-                                    <img src="/img/hit.svg">
-                                    <img src="/img/gift.svg">
+                                    <img src="/img/new.svg">
                                 </div>
                                 <img class="showcasescale" src="/img/scalesshowcase.svg">
                             </div>
                             <div class="product_item_top">
                                 <div class="item_image gap-between">
-                                    <img src="/img/sprucegarda.png">
-                                </div>
-                                <div class="item_name gap-between">
-                                    <span>Искусственная Ель Нарда заснеженная</span>
-                                </div>
-                                <div class="item_article gap-between">
-                                    <span>артикул: KP3018</span>
-                                </div>
-                                <div class="item_rating">
-                                    <img class="rating" src="/img/rating.svg">
-                                    <a href="#"><img src="/img/review.svg"></a>
+                                    <img src="/img/shotlandija1.png">
                                 </div>
                             </div>
                             <div class="product_item_bottom">
+                                <div class="product_item_desc">
+                                    <div class="item_name gap-between">
+                                        <span>Искусственная Ель Шотландия</span>
+                                    </div>
+                                    <div class="item_article gap-between">
+                                        <span>артикул: KP3018</span>
+                                    </div>
+                                    <div class="item_rating">
+                                        <img class="rating" src="/img/rating.svg">
+                                        <a href="#"><img src="/img/review.svg"></a>
+                                    </div>
+                                </div>
                                 <div class="product_item_height">
                                     <a href="#"><img src="/img/size.svg"></a>
                                     <span class="avilability">в наличии</span>
                                 </div>
                                 <div class="product_item_price">
                                     <div class="product_item_price_wrap">
-                                        <span class="showcase_price">43 990 ₽</span>
+                                        <span class="showcase_price">28 990 ₽</span>
                                         <div class="product_item_sale_price"></div>
                                     </div>
                                     <div class="product_item_buy">
-                                        <a><img src="/img/shoppingcartgreen.svg"></a>
+                                        <a class="product_item_buy_icon"></a>
                                     </div>
                                 </div>
                             </div>
@@ -411,38 +513,39 @@
                         <div class="product_item">
                             <div class="item_icons">
                                 <div class="item_icons_badge">
-                                    <img src="/img/hit.svg">
-                                    <img src="/img/gift.svg">
+                                    <img src="/img/new.svg">
                                 </div>
                                 <img class="showcasescale" src="/img/scalesshowcase.svg">
                             </div>
                             <div class="product_item_top">
                                 <div class="item_image gap-between">
-                                    <img src="/img/sprucegarda.png">
-                                </div>
-                                <div class="item_name gap-between">
-                                    <span>Искусственная Ель Нарда заснеженная</span>
-                                </div>
-                                <div class="item_article gap-between">
-                                    <span>артикул: KP3018</span>
-                                </div>
-                                <div class="item_rating">
-                                    <img class="rating" src="/img/rating.svg">
-                                    <a href="#"><img src="/img/review.svg"></a>
+                                    <img src="/img/empress.png">
                                 </div>
                             </div>
                             <div class="product_item_bottom">
+                                <div class="product_item_desc">
+                                    <div class="item_name gap-between">
+                                        <span>Венок Триумф Императрица с шишками заснеженный</span>
+                                    </div>
+                                    <div class="item_article gap-between">
+                                        <span>артикул: 73847</span>
+                                    </div>
+                                    <div class="item_rating">
+                                        <img class="rating" src="/img/rating.svg">
+                                        <a href="#"><img src="/img/review.svg"></a>
+                                    </div>
+                                </div>
                                 <div class="product_item_height">
-                                    <a href="#"><img src="/img/size.svg"></a>
+                                    <a href="#"><img src="/img/45cm.svg"></a>
                                     <span class="avilability">в наличии</span>
                                 </div>
                                 <div class="product_item_price">
                                     <div class="product_item_price_wrap">
-                                        <span class="showcase_price">43 990 ₽</span>
+                                        <span class="showcase_price">5 990 ₽</span>
                                         <div class="product_item_sale_price"></div>
                                     </div>
                                     <div class="product_item_buy">
-                                        <a><img src="/img/shoppingcartgreen.svg"></a>
+                                        <a class="product_item_buy_icon"></a>
                                     </div>
                                 </div>
                             </div>
@@ -450,38 +553,40 @@
                         <div class="product_item">
                             <div class="item_icons">
                                 <div class="item_icons_badge">
-                                    <img src="/img/hit.svg">
-                                    <img src="/img/gift.svg">
+                                    <img src="/img/sale.svg">
+                                    <img src="/img/new.svg">
                                 </div>
                                 <img class="showcasescale" src="/img/scalesshowcase.svg">
                             </div>
                             <div class="product_item_top">
                                 <div class="item_image gap-between">
-                                    <img src="/img/sprucegarda.png">
-                                </div>
-                                <div class="item_name gap-between">
-                                    <span>Искусственная Ель Нарда заснеженная</span>
-                                </div>
-                                <div class="item_article gap-between">
-                                    <span>артикул: KP3018</span>
-                                </div>
-                                <div class="item_rating">
-                                    <img class="rating" src="/img/rating.svg">
-                                    <a href="#"><img src="/img/review.svg"></a>
+                                    <img src="/img/forestbeauty.png">
                                 </div>
                             </div>
                             <div class="product_item_bottom">
+                                <div class="product_item_desc">
+                                    <div class="item_name gap-between">
+                                        <span>Сваг с лампочками Триумф Лесная Красавица</span>
+                                    </div>
+                                    <div class="item_article gap-between">
+                                        <span>артикул: KP3018</span>
+                                    </div>
+                                    <div class="item_rating">
+                                        <img class="rating" src="/img/rating.svg">
+                                        <a href="#"><img src="/img/review.svg"></a>
+                                    </div>
+                                </div>
                                 <div class="product_item_height">
-                                    <a href="#"><img src="/img/size.svg"></a>
+                                    <a href="#"><img src="/img/sizegreen.svg"></a>
                                     <span class="avilability">в наличии</span>
                                 </div>
                                 <div class="product_item_price">
                                     <div class="product_item_price_wrap">
-                                        <span class="showcase_price">43 990 ₽</span>
+                                        <span class="showcase_price">8 990 ₽</span>
                                         <div class="product_item_sale_price"></div>
                                     </div>
                                     <div class="product_item_buy">
-                                        <a><img src="/img/shoppingcartgreen.svg"></a>
+                                        <a class="product_item_buy_icon"></a>
                                     </div>
                                 </div>
                             </div>
@@ -489,38 +594,39 @@
                         <div class="product_item">
                             <div class="item_icons">
                                 <div class="item_icons_badge">
-                                    <img src="/img/hit.svg">
                                     <img src="/img/gift.svg">
                                 </div>
                                 <img class="showcasescale" src="/img/scalesshowcase.svg">
                             </div>
                             <div class="product_item_top">
                                 <div class="item_image gap-between">
-                                    <img src="/img/sprucegarda.png">
-                                </div>
-                                <div class="item_name gap-between">
-                                    <span>Искусственная Ель Нарда заснеженная</span>
-                                </div>
-                                <div class="item_article gap-between">
-                                    <span>артикул: KP3018</span>
-                                </div>
-                                <div class="item_rating">
-                                    <img class="rating" src="/img/rating.svg">
-                                    <a href="#"><img src="/img/review.svg"></a>
+                                    <img src="/img/Normandia.png">
                                 </div>
                             </div>
                             <div class="product_item_bottom">
+                                <div class="product_item_desc">
+                                    <div class="item_name gap-between">
+                                        <span>Венок Триумф Нормандия 60см</span>
+                                    </div>
+                                    <div class="item_article gap-between">
+                                        <span>артикул: 73847</span>
+                                    </div>
+                                    <div class="item_rating">
+                                        <img class="rating" src="/img/rating.svg">
+                                        <a href="#"><img src="/img/review.svg"></a>
+                                    </div>
+                                </div>
                                 <div class="product_item_height">
-                                    <a href="#"><img src="/img/size.svg"></a>
+                                    <a href="#"><img src="/img/60cm.svg"></a>
                                     <span class="avilability">в наличии</span>
                                 </div>
                                 <div class="product_item_price">
                                     <div class="product_item_price_wrap">
-                                        <span class="showcase_price">43 990 ₽</span>
+                                        <span class="showcase_price">10 390 ₽</span>
                                         <div class="product_item_sale_price"></div>
                                     </div>
                                     <div class="product_item_buy">
-                                        <a><img src="/img/shoppingcartgreen.svg"></a>
+                                        <a class="product_item_buy_icon"></a>
                                     </div>
                                 </div>
                             </div>
@@ -528,12 +634,19 @@
                     </div>  
                     <div class="big_banner">
                         <img class="big_banner__img" src="/img/bigbanner.png">
+                        <div class="big_banner_desc">
+                            <span class="big_banner_desc_title">Коллекция 2021</span>
+                            <span class="big_banner_desc_text">Лучший подарок на Новый Год — это Ёлка!</span>
+                        </div>
                     </div>
                     <div class="promo">
                         <div class="product_item">
                             <div class="item_icons">
                                 <div class="item_icons_badge">
                                     <img src="/img/hit.svg">
+                                    <span class="item_icons_badge_desc">
+                                        <p class="item_icons_badge_desc__p">Хит</p>
+                                    </span>
                                     <img src="/img/gift.svg">
                                 </div>
                                 <img class="showcasescale" src="/img/scalesshowcase.svg">
@@ -542,18 +655,20 @@
                                 <div class="item_image gap-between">
                                     <img src="/img/sprucegarda.png">
                                 </div>
-                                <div class="item_name gap-between">
-                                    <span>Искусственная Ель Нарда заснеженная</span>
-                                </div>
-                                <div class="item_article gap-between">
-                                    <span>артикул: KP3018</span>
-                                </div>
-                                <div class="item_rating">
-                                    <img class="rating" src="/img/rating.svg">
-                                    <a href="#"><img src="/img/review.svg"></a>
-                                </div>
                             </div>
                             <div class="product_item_bottom">
+                                <div class="product_item_desc">
+                                    <div class="item_name gap-between">
+                                        <span>Искусственная Ель Гарда заснеженная</span>
+                                    </div>
+                                    <div class="item_article gap-between">
+                                        <span>артикул: KP3018</span>
+                                    </div>
+                                    <div class="item_rating">
+                                        <img class="rating" src="/img/rating.svg">
+                                        <a href="#"><img src="/img/review.svg"></a>
+                                    </div>
+                                </div>
                                 <div class="product_item_height">
                                     <a href="#"><img src="/img/size.svg"></a>
                                     <span class="avilability">в наличии</span>
@@ -564,7 +679,7 @@
                                         <div class="product_item_sale_price"></div>
                                     </div>
                                     <div class="product_item_buy">
-                                        <a><img src="/img/shoppingcartgreen.svg"></a>
+                                        <a class="product_item_buy_icon"></a>
                                     </div>
                                 </div>
                             </div>
@@ -572,38 +687,39 @@
                         <div class="product_item">
                             <div class="item_icons">
                                 <div class="item_icons_badge">
-                                    <img src="/img/hit.svg">
-                                    <img src="/img/gift.svg">
+                                    <img src="/img/new.svg">
                                 </div>
                                 <img class="showcasescale" src="/img/scalesshowcase.svg">
                             </div>
                             <div class="product_item_top">
                                 <div class="item_image gap-between">
-                                    <img src="/img/sprucegarda.png">
-                                </div>
-                                <div class="item_name gap-between">
-                                    <span>Искусственная Ель Нарда заснеженная</span>
-                                </div>
-                                <div class="item_article gap-between">
-                                    <span>артикул: KP3018</span>
-                                </div>
-                                <div class="item_rating">
-                                    <img class="rating" src="/img/rating.svg">
-                                    <a href="#"><img src="/img/review.svg"></a>
+                                    <img src="/img/shotlandija1.png">
                                 </div>
                             </div>
                             <div class="product_item_bottom">
+                                <div class="product_item_desc">
+                                    <div class="item_name gap-between">
+                                        <span>Искусственная Ель Шотландия</span>
+                                    </div>
+                                    <div class="item_article gap-between">
+                                        <span>артикул: KP3018</span>
+                                    </div>
+                                    <div class="item_rating">
+                                        <img class="rating" src="/img/rating.svg">
+                                        <a href="#"><img src="/img/review.svg"></a>
+                                    </div>
+                                </div>
                                 <div class="product_item_height">
                                     <a href="#"><img src="/img/size.svg"></a>
                                     <span class="avilability">в наличии</span>
                                 </div>
                                 <div class="product_item_price">
                                     <div class="product_item_price_wrap">
-                                        <span class="showcase_price">43 990 ₽</span>
+                                        <span class="showcase_price">28 990 ₽</span>
                                         <div class="product_item_sale_price"></div>
                                     </div>
                                     <div class="product_item_buy">
-                                        <a><img src="/img/shoppingcartgreen.svg"></a>
+                                        <a class="product_item_buy_icon"></a>
                                     </div>
                                 </div>
                             </div>
@@ -611,38 +727,39 @@
                         <div class="product_item">
                             <div class="item_icons">
                                 <div class="item_icons_badge">
-                                    <img src="/img/hit.svg">
-                                    <img src="/img/gift.svg">
+                                    <img src="/img/new.svg">
                                 </div>
                                 <img class="showcasescale" src="/img/scalesshowcase.svg">
                             </div>
                             <div class="product_item_top">
                                 <div class="item_image gap-between">
-                                    <img src="/img/sprucegarda.png">
-                                </div>
-                                <div class="item_name gap-between">
-                                    <span>Искусственная Ель Нарда заснеженная</span>
-                                </div>
-                                <div class="item_article gap-between">
-                                    <span>артикул: KP3018</span>
-                                </div>
-                                <div class="item_rating">
-                                    <img class="rating" src="/img/rating.svg">
-                                    <a href="#"><img src="/img/review.svg"></a>
+                                    <img src="/img/empress.png">
                                 </div>
                             </div>
                             <div class="product_item_bottom">
+                                <div class="product_item_desc">
+                                    <div class="item_name gap-between">
+                                        <span>Венок Триумф Императрица с шишками заснеженный</span>
+                                    </div>
+                                    <div class="item_article gap-between">
+                                        <span>артикул: 73847</span>
+                                    </div>
+                                    <div class="item_rating">
+                                        <img class="rating" src="/img/rating.svg">
+                                        <a href="#"><img src="/img/review.svg"></a>
+                                    </div>
+                                </div>
                                 <div class="product_item_height">
-                                    <a href="#"><img src="/img/size.svg"></a>
+                                    <a href="#"><img src="/img/45cm.svg"></a>
                                     <span class="avilability">в наличии</span>
                                 </div>
                                 <div class="product_item_price">
                                     <div class="product_item_price_wrap">
-                                        <span class="showcase_price">43 990 ₽</span>
+                                        <span class="showcase_price">5 990 ₽</span>
                                         <div class="product_item_sale_price"></div>
                                     </div>
                                     <div class="product_item_buy">
-                                        <a><img src="/img/shoppingcartgreen.svg"></a>
+                                        <a class="product_item_buy_icon"></a>
                                     </div>
                                 </div>
                             </div>
@@ -650,38 +767,40 @@
                         <div class="product_item">
                             <div class="item_icons">
                                 <div class="item_icons_badge">
-                                    <img src="/img/hit.svg">
-                                    <img src="/img/gift.svg">
+                                    <img src="/img/sale.svg">
+                                    <img src="/img/new.svg">
                                 </div>
                                 <img class="showcasescale" src="/img/scalesshowcase.svg">
                             </div>
                             <div class="product_item_top">
                                 <div class="item_image gap-between">
-                                    <img src="/img/sprucegarda.png">
-                                </div>
-                                <div class="item_name gap-between">
-                                    <span>Искусственная Ель Нарда заснеженная</span>
-                                </div>
-                                <div class="item_article gap-between">
-                                    <span>артикул: KP3018</span>
-                                </div>
-                                <div class="item_rating">
-                                    <img class="rating" src="/img/rating.svg">
-                                    <a href="#"><img src="/img/review.svg"></a>
+                                    <img src="/img/forestbeauty.png">
                                 </div>
                             </div>
                             <div class="product_item_bottom">
+                                <div class="product_item_desc">
+                                    <div class="item_name gap-between">
+                                        <span>Сваг с лампочками Триумф Лесная Красавица</span>
+                                    </div>
+                                    <div class="item_article gap-between">
+                                        <span>артикул: KP3018</span>
+                                    </div>
+                                    <div class="item_rating">
+                                        <img class="rating" src="/img/rating.svg">
+                                        <a href="#"><img src="/img/review.svg"></a>
+                                    </div>
+                                </div>
                                 <div class="product_item_height">
-                                    <a href="#"><img src="/img/size.svg"></a>
+                                    <a href="#"><img src="/img/sizegreen.svg"></a>
                                     <span class="avilability">в наличии</span>
                                 </div>
                                 <div class="product_item_price">
                                     <div class="product_item_price_wrap">
-                                        <span class="showcase_price">43 990 ₽</span>
+                                        <span class="showcase_price">8 990 ₽</span>
                                         <div class="product_item_sale_price"></div>
                                     </div>
                                     <div class="product_item_buy">
-                                        <a><img src="/img/shoppingcartgreen.svg"></a>
+                                        <a class="product_item_buy_icon"></a>
                                     </div>
                                 </div>
                             </div>
@@ -689,38 +808,39 @@
                         <div class="product_item">
                             <div class="item_icons">
                                 <div class="item_icons_badge">
-                                    <img src="/img/hit.svg">
                                     <img src="/img/gift.svg">
                                 </div>
                                 <img class="showcasescale" src="/img/scalesshowcase.svg">
                             </div>
                             <div class="product_item_top">
                                 <div class="item_image gap-between">
-                                    <img src="/img/sprucegarda.png">
-                                </div>
-                                <div class="item_name gap-between">
-                                    <span>Искусственная Ель Нарда заснеженная</span>
-                                </div>
-                                <div class="item_article gap-between">
-                                    <span>артикул: KP3018</span>
-                                </div>
-                                <div class="item_rating">
-                                    <img class="rating" src="/img/rating.svg">
-                                    <a href="#"><img src="/img/review.svg"></a>
+                                    <img src="/img/Normandia.png">
                                 </div>
                             </div>
                             <div class="product_item_bottom">
+                                <div class="product_item_desc">
+                                    <div class="item_name gap-between">
+                                        <span>Венок Триумф Нормандия 60см</span>
+                                    </div>
+                                    <div class="item_article gap-between">
+                                        <span>артикул: 73847</span>
+                                    </div>
+                                    <div class="item_rating">
+                                        <img class="rating" src="/img/rating.svg">
+                                        <a href="#"><img src="/img/review.svg"></a>
+                                    </div>
+                                </div>
                                 <div class="product_item_height">
-                                    <a href="#"><img src="/img/size.svg"></a>
+                                    <a href="#"><img src="/img/60cm.svg"></a>
                                     <span class="avilability">в наличии</span>
                                 </div>
                                 <div class="product_item_price">
                                     <div class="product_item_price_wrap">
-                                        <span class="showcase_price">43 990 ₽</span>
+                                        <span class="showcase_price">10 390 ₽</span>
                                         <div class="product_item_sale_price"></div>
                                     </div>
                                     <div class="product_item_buy">
-                                        <a><img src="/img/shoppingcartgreen.svg"></a>
+                                        <a class="product_item_buy_icon"></a>
                                     </div>
                                 </div>
                             </div>
@@ -736,6 +856,9 @@
                             <div class="item_icons">
                                 <div class="item_icons_badge">
                                     <img src="/img/hit.svg">
+                                    <span class="item_icons_badge_desc">
+                                        <p class="item_icons_badge_desc__p">Хит</p>
+                                    </span>
                                     <img src="/img/gift.svg">
                                 </div>
                                 <img class="showcasescale" src="/img/scalesshowcase.svg">
@@ -744,18 +867,20 @@
                                 <div class="item_image gap-between">
                                     <img src="/img/sprucegarda.png">
                                 </div>
-                                <div class="item_name gap-between">
-                                    <span>Искусственная Ель Нарда заснеженная</span>
-                                </div>
-                                <div class="item_article gap-between">
-                                    <span>артикул: KP3018</span>
-                                </div>
-                                <div class="item_rating">
-                                    <img class="rating" src="/img/rating.svg">
-                                    <a href="#"><img src="/img/review.svg"></a>
-                                </div>
                             </div>
                             <div class="product_item_bottom">
+                                <div class="product_item_desc">
+                                    <div class="item_name gap-between">
+                                        <span>Искусственная Ель Гарда заснеженная</span>
+                                    </div>
+                                    <div class="item_article gap-between">
+                                        <span>артикул: KP3018</span>
+                                    </div>
+                                    <div class="item_rating">
+                                        <img class="rating" src="/img/rating.svg">
+                                        <a href="#"><img src="/img/review.svg"></a>
+                                    </div>
+                                </div>
                                 <div class="product_item_height">
                                     <a href="#"><img src="/img/size.svg"></a>
                                     <span class="avilability">в наличии</span>
@@ -766,7 +891,7 @@
                                         <div class="product_item_sale_price"></div>
                                     </div>
                                     <div class="product_item_buy">
-                                        <a><img src="/img/shoppingcartgreen.svg"></a>
+                                        <a class="product_item_buy_icon"></a>
                                     </div>
                                 </div>
                             </div>
@@ -774,38 +899,39 @@
                         <div class="product_item">
                             <div class="item_icons">
                                 <div class="item_icons_badge">
-                                    <img src="/img/hit.svg">
-                                    <img src="/img/gift.svg">
+                                    <img src="/img/new.svg">
                                 </div>
                                 <img class="showcasescale" src="/img/scalesshowcase.svg">
                             </div>
                             <div class="product_item_top">
                                 <div class="item_image gap-between">
-                                    <img src="/img/sprucegarda.png">
-                                </div>
-                                <div class="item_name gap-between">
-                                    <span>Искусственная Ель Нарда заснеженная</span>
-                                </div>
-                                <div class="item_article gap-between">
-                                    <span>артикул: KP3018</span>
-                                </div>
-                                <div class="item_rating">
-                                    <img class="rating" src="/img/rating.svg">
-                                    <a href="#"><img src="/img/review.svg"></a>
+                                    <img src="/img/shotlandija1.png">
                                 </div>
                             </div>
                             <div class="product_item_bottom">
+                                <div class="product_item_desc">
+                                    <div class="item_name gap-between">
+                                        <span>Искусственная Ель Шотландия</span>
+                                    </div>
+                                    <div class="item_article gap-between">
+                                        <span>артикул: KP3018</span>
+                                    </div>
+                                    <div class="item_rating">
+                                        <img class="rating" src="/img/rating.svg">
+                                        <a href="#"><img src="/img/review.svg"></a>
+                                    </div>
+                                </div>
                                 <div class="product_item_height">
                                     <a href="#"><img src="/img/size.svg"></a>
                                     <span class="avilability">в наличии</span>
                                 </div>
                                 <div class="product_item_price">
                                     <div class="product_item_price_wrap">
-                                        <span class="showcase_price">43 990 ₽</span>
+                                        <span class="showcase_price">28 990 ₽</span>
                                         <div class="product_item_sale_price"></div>
                                     </div>
                                     <div class="product_item_buy">
-                                        <a><img src="/img/shoppingcartgreen.svg"></a>
+                                        <a class="product_item_buy_icon"></a>
                                     </div>
                                 </div>
                             </div>
@@ -813,38 +939,39 @@
                         <div class="product_item">
                             <div class="item_icons">
                                 <div class="item_icons_badge">
-                                    <img src="/img/hit.svg">
-                                    <img src="/img/gift.svg">
+                                    <img src="/img/new.svg">
                                 </div>
                                 <img class="showcasescale" src="/img/scalesshowcase.svg">
                             </div>
                             <div class="product_item_top">
                                 <div class="item_image gap-between">
-                                    <img src="/img/sprucegarda.png">
-                                </div>
-                                <div class="item_name gap-between">
-                                    <span>Искусственная Ель Нарда заснеженная</span>
-                                </div>
-                                <div class="item_article gap-between">
-                                    <span>артикул: KP3018</span>
-                                </div>
-                                <div class="item_rating">
-                                    <img class="rating" src="/img/rating.svg">
-                                    <a href="#"><img src="/img/review.svg"></a>
+                                    <img src="/img/empress.png">
                                 </div>
                             </div>
                             <div class="product_item_bottom">
+                                <div class="product_item_desc">
+                                    <div class="item_name gap-between">
+                                        <span>Венок Триумф Императрица с шишками заснеженный</span>
+                                    </div>
+                                    <div class="item_article gap-between">
+                                        <span>артикул: 73847</span>
+                                    </div>
+                                    <div class="item_rating">
+                                        <img class="rating" src="/img/rating.svg">
+                                        <a href="#"><img src="/img/review.svg"></a>
+                                    </div>
+                                </div>
                                 <div class="product_item_height">
-                                    <a href="#"><img src="/img/size.svg"></a>
+                                    <a href="#"><img src="/img/45cm.svg"></a>
                                     <span class="avilability">в наличии</span>
                                 </div>
                                 <div class="product_item_price">
                                     <div class="product_item_price_wrap">
-                                        <span class="showcase_price">43 990 ₽</span>
+                                        <span class="showcase_price">5 990 ₽</span>
                                         <div class="product_item_sale_price"></div>
                                     </div>
                                     <div class="product_item_buy">
-                                        <a><img src="/img/shoppingcartgreen.svg"></a>
+                                        <a class="product_item_buy_icon"></a>
                                     </div>
                                 </div>
                             </div>
@@ -852,38 +979,40 @@
                         <div class="product_item">
                             <div class="item_icons">
                                 <div class="item_icons_badge">
-                                    <img src="/img/hit.svg">
-                                    <img src="/img/gift.svg">
+                                    <img src="/img/sale.svg">
+                                    <img src="/img/new.svg">
                                 </div>
                                 <img class="showcasescale" src="/img/scalesshowcase.svg">
                             </div>
                             <div class="product_item_top">
                                 <div class="item_image gap-between">
-                                    <img src="/img/sprucegarda.png">
-                                </div>
-                                <div class="item_name gap-between">
-                                    <span>Искусственная Ель Нарда заснеженная</span>
-                                </div>
-                                <div class="item_article gap-between">
-                                    <span>артикул: KP3018</span>
-                                </div>
-                                <div class="item_rating">
-                                    <img class="rating" src="/img/rating.svg">
-                                    <a href="#"><img src="/img/review.svg"></a>
+                                    <img src="/img/forestbeauty.png">
                                 </div>
                             </div>
                             <div class="product_item_bottom">
+                                <div class="product_item_desc">
+                                    <div class="item_name gap-between">
+                                        <span>Сваг с лампочками Триумф Лесная Красавица</span>
+                                    </div>
+                                    <div class="item_article gap-between">
+                                        <span>артикул: KP3018</span>
+                                    </div>
+                                    <div class="item_rating">
+                                        <img class="rating" src="/img/rating.svg">
+                                        <a href="#"><img src="/img/review.svg"></a>
+                                    </div>
+                                </div>
                                 <div class="product_item_height">
-                                    <a href="#"><img src="/img/size.svg"></a>
+                                    <a href="#"><img src="/img/sizegreen.svg"></a>
                                     <span class="avilability">в наличии</span>
                                 </div>
                                 <div class="product_item_price">
                                     <div class="product_item_price_wrap">
-                                        <span class="showcase_price">43 990 ₽</span>
+                                        <span class="showcase_price">8 990 ₽</span>
                                         <div class="product_item_sale_price"></div>
                                     </div>
                                     <div class="product_item_buy">
-                                        <a><img src="/img/shoppingcartgreen.svg"></a>
+                                        <a class="product_item_buy_icon"></a>
                                     </div>
                                 </div>
                             </div>
@@ -891,51 +1020,98 @@
                         <div class="product_item">
                             <div class="item_icons">
                                 <div class="item_icons_badge">
-                                    <img src="/img/hit.svg">
                                     <img src="/img/gift.svg">
                                 </div>
                                 <img class="showcasescale" src="/img/scalesshowcase.svg">
                             </div>
                             <div class="product_item_top">
                                 <div class="item_image gap-between">
-                                    <img src="/img/sprucegarda.png">
-                                </div>
-                                <div class="item_name gap-between">
-                                    <span>Искусственная Ель Нарда заснеженная</span>
-                                </div>
-                                <div class="item_article gap-between">
-                                    <span>артикул: KP3018</span>
-                                </div>
-                                <div class="item_rating">
-                                    <img class="rating" src="/img/rating.svg">
-                                    <a href="#"><img src="/img/review.svg"></a>
+                                    <img src="/img/Normandia.png">
                                 </div>
                             </div>
                             <div class="product_item_bottom">
+                                <div class="product_item_desc">
+                                    <div class="item_name gap-between">
+                                        <span>Венок Триумф Нормандия 60см</span>
+                                    </div>
+                                    <div class="item_article gap-between">
+                                        <span>артикул: 73847</span>
+                                    </div>
+                                    <div class="item_rating">
+                                        <img class="rating" src="/img/rating.svg">
+                                        <a href="#"><img src="/img/review.svg"></a>
+                                    </div>
+                                </div>
                                 <div class="product_item_height">
-                                    <a href="#"><img src="/img/size.svg"></a>
+                                    <a href="#"><img src="/img/60cm.svg"></a>
                                     <span class="avilability">в наличии</span>
                                 </div>
                                 <div class="product_item_price">
                                     <div class="product_item_price_wrap">
-                                        <span class="showcase_price">43 990 ₽</span>
+                                        <span class="showcase_price">10 390 ₽</span>
                                         <div class="product_item_sale_price"></div>
                                     </div>
                                     <div class="product_item_buy">
-                                        <a><img src="/img/shoppingcartgreen.svg"></a>
+                                        <a class="product_item_buy_icon"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="go_catalog_button_wrap">
-                        <a href="#"><button class = "go_catalog"><img class="gap" src="/img/spruceinbutton.svg">Перейти в каталог</button></a>  
+                        <a href="catalog.html"><button class = "go_catalog"><img class="gap" src="/img/spruceinbutton.svg">Перейти в каталог</button></a>  
                     </div> 
                 </div>
             </div>            
         </div>
         <div class="history_banner">
-            <div class="history_banner_wrapper"></div>
+            <div class="history_banner_wrapper">
+                <div class="history_banner_left">
+                    <div class="santa">
+                        <img class="santa_face" src="/img/Santa.png">
+                        <img class="santa_initials" src="/img/santaclausinitials.png">
+                    </div>
+                    <div class="history_banner_article">
+                        <span class="history_banner_article__span">Производственно-торговая компания «Crystal Group» является одной из ведущих компаний по продаже новогодней продукции и производству искусственных елок.</span>
+                        <p class="history_banner_article__p">
+                            Компания была создана в 2007 году, а с 2015 года представляет собственную торговую марку «Crystal Trees».
+                            В процессе производства собственной марки искусственных елок применяются материалы от надежных поставщиков, прошедшие строгую проверку на качество и безопасность. 
+                            У нас можно купить новогоднюю елку, которая отвечает всем требованиям пожарной и экологической безопасности.
+                        </p>
+                        <a href="#" class="inspiration_nav_button gap-top"><img src="/img/arrowrightinsp.svg"></a>
+                    </div>
+                </div>
+                <div class="history_banner_right">
+                    <div class="medals">
+                        <div class="medal">
+                            <img class="medal_img" src="/img/medal1.svg">
+                            <span class="text">10 лет гарантии на механизмы</span>
+                        </div>
+                        <div class="medal">
+                            <img class="medal_img" src="/img/medal2.svg">
+                            <span class="text">Вся технологическая информация сразу</span>
+                        </div>
+                        <div class="medal">
+                            <img class="medal_img" src="/img/medal3.svg">
+                            <span class="text">На 100% достоверное фото продукции </span>
+                        </div>
+                        <div class="medal">
+                            <img class="medal_img" src="/img/medal4.svg">
+                            <span class="text">Доставка и отгрузка товара день в день* </span>
+                            <span class="tiny">*только для Москвы</span>
+                        </div>
+                        <div class="medal">
+                            <img class="medal_img" src="/img/medal5.svg">
+                            <span class="text"> Бережем и имидж репутацию</span>
+                        </div>
+                        <div class="medal">
+                            <img class="medal_img" src="/img/medal6.svg">
+                            <span class="text">Обучаем консультантов и продавцов клиентов</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
         <div class="inspiration">
             <div class="top">
@@ -1001,7 +1177,7 @@
                 <a class = "link" href="//google.com">Контакты</a>
                </div>
                 <div class="footer_top_line_info">
-                    <span class="email-text phone">8 (800) 55 55 57 24</span>
+                    <a class="email-text phone" href="tel:+780055555724">8 (800) 55 55 57 24</a>
                 </div>
            </div>
            <div class="footer_main_line">
@@ -1052,12 +1228,15 @@
                    <span>© 2021 CRYSTAL TREES, Все права защищены</span>
                </div>
                <div class="social">
-                   <div class="facebook"></div>
-                   <div class="instagram_icon"></div>
-                   <div class="youtube"></div>
+                   <!-- <div class="facebook"></div> -->
+                   <a class="facebook" href="//facebook.com"></a>
+                   <!-- <div class="instagram_icon"></div> -->
+                   <a class="instagram_icon" href="//instagram.com"></a>
+                   <!-- <div class="youtube"></div> -->
+                   <a class="youtube" href="//youtube.com"></a>
                </div>
                <div class="developer">
-                   <img src="/img/kompot.svg">
+                   <a href="#" target="_blank" ><img src="/img/kompot.svg"></a>
                </div>
            </div>
         </div>

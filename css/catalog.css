@@ -1,0 +1,44 @@
+@import "common/typography.css";
+@import "common/header.css";
+@import "common/footer.css";
+@import "common/sticky-menu.css";
+@import "common/product_item.css";
+@import "common/dots_slider.css";
+@import "common/burger.css";
+@import "common/big_banner.css";
+@import "layout.css";
+
+.products-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.head_line{
+    margin-bottom: 58px;
+}
+.breadcrumbs{
+    margin: 130px 0px 71px 0px;
+    list-style: none;
+}
+.breadcrumbs .breadcrumb{
+    display: inline;
+}
+.breadcrumbs .breadcrumb +.breadcrumb:before {
+    padding: 8px;
+    color: black;
+    font-family: "icomoon";
+    content: "\e90f";
+  }
+.active{
+    background-color: #27AE60;
+}
+.side-menu{
+    max-width: 360px;
+    border: 1px solid #E0E0DD;
+}
+.dots_slider{
+    margin-bottom: 187px;
+}
+.products{
+    border-bottom: 1px solid #E0E0DD;
+    display: flex;
+}
