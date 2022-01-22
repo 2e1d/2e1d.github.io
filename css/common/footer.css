@@ -2,7 +2,7 @@
     background: #333333;
 }
 .footer_top_line{
-    padding: 15px 139px;
+    padding: 36px 139px 35px 139px;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #535353;
@@ -82,4 +82,50 @@
     height: 48px;
     width: 48px;
     background: url("/img/youtube.svg") no-repeat;
+}
+@media (max-width: 375px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_top_line{
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .link{
+        margin-right: 31px;
+    }
+    .footer_main_line{
+        display: flex;
+        margin: 22px 20px 60px 15px;
+        flex-direction: column;
+    }
+    .footer_bottom_line{
+        flex-direction: column;
+        margin: 0px 37px 0px 38px;
+        align-items: center;
+    }
+    .callback{
+        width: 344px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .write_us{
+        width: 344px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .social{
+        order: 1;
+        margin-bottom: 46px;
+    }
+    .copyright{
+        order: 2;
+        margin-bottom: 61px;
+    }
+    .developer{
+        order: 3;
+    }
 }
